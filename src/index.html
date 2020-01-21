@@ -5,9 +5,38 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<title>App</title>
+		<link
+			href="https://fonts.googleapis.com/css?family=DM+Serif+Text&display=swap"
+			rel="stylesheet"
+		/>
 		<link rel="stylesheet" href="./styles/main.scss" />
 	</head>
-	<body>
+	<body id="home">
+		<section class="cover">
+			<!-- Slider main container -->
+			<div class="swiper-container">
+				<!-- Additional required wrapper -->
+				<div class="swiper-wrapper">
+					<!-- Slides -->
+					<div
+						class="swiper-slide"
+						style="background-image: url('./images/interior-a.jpg');"
+					>
+						<h1 data-swiper-parallax="-500">Serenity Interior Design Studio</h1>
+						<h2>An interior design studio based in Dubai</h2>
+					</div>
+					<div
+						class="swiper-slide"
+						style="background-image: url('./images/interior-b.jpg');"
+					>
+						<h1 data-swiper-parallax="-500">
+							Creating the Art of Stylish Living
+						</h1>
+						<h2>Inspired. Creative. Functional.</h2>
+					</div>
+				</div>
+			</div>
+		</section>
 		<script src="./scripts/main.js"></script>
 	</body>
 </html>
