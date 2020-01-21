@@ -171,4 +171,25 @@ section.cover {
 			@include flex-centered();
 		}
 	}
+
+	section#cta {
+		#cta-content {
+			@include flex-centered();
+		}
+
+		.shadow-box {
+			border-radius: $border-radius * 2;
+			box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.05);
+			padding: 2rem;
+
+			.hl {
+				margin-bottom: 4em;
+			}
+
+			.icon {
+				color: $secondary;
+				margin-right: 0.5rem;
+			}
+		}
+	}
 }
