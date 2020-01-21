@@ -1,8 +1,9 @@
 import $ from 'jquery'
 import 'bootstrap'
 import Swiper from 'swiper'
+import AOS from 'aos'
 
-const mySwiper = new Swiper('.swiper-container', {
+const coverSwiper = new Swiper('.swiper-container', {
 	// Optional parameters
 	loop: true,
 	grabCursor: true,
@@ -12,3 +13,5 @@ const mySwiper = new Swiper('.swiper-container', {
 		delay: 3000
 	}
 })
+
+AOS.init()

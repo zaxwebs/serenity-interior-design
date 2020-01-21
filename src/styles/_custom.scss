@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=DM+Serif+Text&display=swap');
 
 // BASE
+:root {
+	--swiper-theme-color: #fff;
+}
+
 html,
 body {
 	position: relative;
 	height: 100%;
-}
-
-:root {
-	--swiper-theme-color: #fff;
 }
 
 h1,
@@ -18,6 +18,20 @@ h4,
 h5,
 h6 {
 	font-family: 'DM Serif Text';
+}
+
+section {
+	padding: 2rem 0;
+
+	@include media-breakpoint-up(xl) {
+		padding: 3rem 0;
+	}
+}
+
+q {
+	color: $gray-600;
+	margin-bottom: 0.5em;
+	display: block;
 }
 
 // UTILS
@@ -59,5 +73,13 @@ h6 {
 }
 
 // LAYOUT
+section.cover {
+	padding: 0;
+}
 
 // PAGE(s)
+#home {
+	#intro {
+		text-align: center;
+	}
+}
