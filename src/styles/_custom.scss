@@ -29,11 +29,14 @@ section {
 }
 
 q {
-	color: $gray-600;
+	color: $secondary;
 	margin-bottom: 0.5em;
 	display: block;
 }
 
+p {
+	color: $gray-600;
+}
 // UTILS
 @mixin flex-centered {
 	display: flex;
@@ -138,7 +141,20 @@ section.cover {
 				h2 {
 					margin-bottom: 1em;
 				}
+				p {
+					color: $white;
+				}
 			}
+		}
+	}
+
+	section#philosophy {
+		position: relative;
+		text-align: center;
+		overflow: hidden;
+
+		.content-text {
+			@include flex-centered();
 		}
 	}
 }
