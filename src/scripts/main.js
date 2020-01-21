@@ -15,6 +15,7 @@ const coverSwiper = new Swiper('.swiper-container#cover-swiper', {
 
 const projectsSwiper = new Swiper('.swiper-container#projects-swiper', {
 	loop: true,
+	lazy: true,
 	grabCursor: true,
 	slidesPerView: 1,
 	spaceBetween: 100,
