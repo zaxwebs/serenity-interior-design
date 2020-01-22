@@ -37,6 +37,19 @@ q {
 p {
 	color: $gray-600;
 }
+
+footer {
+	color: $white;
+	text-align: center;
+	margin-top: $spacer * 2.5;
+	.container-fluid {
+		padding: $spacer * 2.5;
+
+		a.icon {
+			font-size: 2em;
+		}
+	}
+}
 // UTILS
 @mixin flex-centered {
 	display: flex;
@@ -52,6 +65,13 @@ p {
 	}
 	background-size: cover;
 	background-position: center center;
+}
+
+.bg-primary,
+.bg-secondary {
+	p {
+		color: $white;
+	}
 }
 
 // COMPONENTS
@@ -181,6 +201,10 @@ section.cover {
 			border-radius: $border-radius * 2;
 			box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.05);
 			padding: 2rem;
+
+			&:hover {
+				box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.08);
+			}
 
 			.hl {
 				margin-bottom: 4em;

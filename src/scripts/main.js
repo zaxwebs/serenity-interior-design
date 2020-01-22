@@ -5,11 +5,16 @@ import AOS from 'aos'
 
 const coverSwiper = new Swiper('.swiper-container#cover-swiper', {
 	loop: true,
+	direction: 'vertical',
 	grabCursor: true,
 	parallax: true,
 	speed: 500,
 	autoplay: {
 		delay: 3000
+	},
+	pagination: {
+		el: '.swiper-pagination',
+		clickable: true
 	}
 })
 
@@ -26,6 +31,10 @@ const projectsSwiper = new Swiper('.swiper-container#projects-swiper', {
 		700: {
 			slidesPerView: 3
 		}
+	},
+	pagination: {
+		el: '.swiper-pagination',
+		clickable: true
 	}
 })
 
