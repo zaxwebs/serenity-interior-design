@@ -153,6 +153,7 @@ section.cover {
 	section#cover {
 		.swiper-container {
 			height: 500px;
+			background-color: $secondary;
 
 			@include media-breakpoint-up(xl) {
 				height: 650px;

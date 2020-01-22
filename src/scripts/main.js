@@ -5,12 +5,17 @@ import AOS from 'aos'
 
 const coverSwiper = new Swiper('.swiper-container#cover-swiper', {
 	loop: true,
-	direction: 'vertical',
+	direction: 'horizontal',
 	grabCursor: true,
 	parallax: true,
 	speed: 500,
 	autoplay: {
 		delay: 3000
+	},
+	breakpoints: {
+		992: {
+			direction: 'vertical'
+		}
 	},
 	pagination: {
 		el: '.swiper-pagination',
