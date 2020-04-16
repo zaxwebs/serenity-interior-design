@@ -1,12 +1,9 @@
 # Serinity Interior Design Studio Homepage
-A travel agency page built with customized Bootstrap 4 utilizing Parcel.js workflow.
+An interior design studio page built with customized Bootstrap 4 utilizing Parcel.js workflow (scafolded with [Parcel Bootstrap Starter](https://github.com/zaxwebs/parcel-bootstrap-starter)).
 
 Live version: https://serenityinterior.netlify.com/
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9643a3ce-1b03-4798-b46a-03dd4832c859/deploy-status)](https://app.netlify.com/sites/serenityinterior/deploys)
-
-# Getting Started
-As simple as forking this repo and starting with your project.
 
 # Commands
 * ```npm start``` - Initialize parcel.
